@@ -1,16 +1,32 @@
-# Tech Stack
+# URLShortener - Cloud-based URL Shortener SaaS
 
-Using the below technologies in some capacity
+![image](https://github.com/user-attachments/assets/13b97230-20a6-4cd2-b0b2-5ac4b9afb43d)
 
-|     Technology     |                         Icon                          |
-| :----------------: | :---------------------------------------------------: |
-|     `express`      |   <img src="https://skillicons.dev/icons?i=express" width="48">   |
-|  `githubactions`   | <img src="https://skillicons.dev/icons?i=githubactions" width="48"> |
-|        `js`        |     <img src="https://skillicons.dev/icons?i=js" width="48">     |
-|      `nodejs`      |    <img src="https://skillicons.dev/icons?i=nodejs" width="48">     |
-|      `react`       |     <img src="https://skillicons.dev/icons?i=react" width="48">     |
-|      `redis`       |     <img src="https://skillicons.dev/icons?i=redis" width="48">     |
-|     `tailwind`     |  <img src="https://skillicons.dev/icons?i=tailwind" width="48">  |
-|      `vercel`      |    <img src="https://skillicons.dev/icons?i=vercel" width="48">     |
+Inspired by [https://codingchallenges.fyi/challenges/challenge-url-shortener/](https://codingchallenges.fyi/challenges/challenge-url-shortener/)
 
----
+## Features
+- **SHA256Hashing**: Hashing urls with to Blender through a socket-based server
+- **Collision proofing**: Uses 
+- **Speeedup**: retrieve <k,v> pairs lightning fast using Redis store
+
+
+## Components
+
+The system consists of two main components:
+1. **Node Server (`app.js`)**: A Node js server that creates a socket server to intake and 
+2. **Frontend GuI (`vite-project/src/App.tsx`)**: A Tailwind based frontend that makes all API requests
+
+## Installation
+
+## Usage
+
+## Technologies
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=express, githubactions, js, nodejs, react, redis, tailwind, vercel" />
+  </a>
+</p>
+
+## Disclaimer
+
+The author makes no guarantees of the efficacy or security of this application for anything other than personal use
