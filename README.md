@@ -1,6 +1,6 @@
 # URLShortener - Cloud-based URL Shortener SaaS
 
-![image](https://github.com/user-attachments/assets/13b97230-20a6-4cd2-b0b2-5ac4b9afb43d)
+<img src="https://github.com/user-attachments/assets/13b97230-20a6-4cd2-b0b2-5ac4b9afb43d" width="30%">
 
 Inspired by [https://codingchallenges.fyi/challenges/challenge-url-shortener/](https://codingchallenges.fyi/challenges/challenge-url-shortener/)
 
@@ -14,11 +14,14 @@ Inspired by [https://codingchallenges.fyi/challenges/challenge-url-shortener/](h
 
 The system consists of two main components:
 1. **Node Server (`app.js`)**: A Node js server that creates a socket server to intake and 
-2. **Frontend GuI (`vite-project/src/App.tsx`)**: A Tailwind based frontend that makes all API requests
+2. **Frontend Gui (`vite-project/src/App.tsx`)**: A Tailwind based frontend that makes all API requests
 
 ## Installation
 
 ## Usage
+1. Open two command prompt windows
+2. Run `node app.js` to start the backend server
+3. Run `npm run dev` to start the Gui
 
 ## Technologies
 <p align="center">
