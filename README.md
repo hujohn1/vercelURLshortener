@@ -5,9 +5,9 @@
 Inspired by [https://codingchallenges.fyi/challenges/challenge-url-shortener/](https://codingchallenges.fyi/challenges/challenge-url-shortener/)
 
 ## Features
-- **SHA256Hashing**: Hashing urls with to Blender through a socket-based server
-- **Collision proofing**: Uses 
-- **Speeedup**: retrieve <k,v> pairs lightning fast using Redis store
+- **SHA-256 Hashing**: Hashing urls with to Blender through a socket-based server
+- **Collision proofing**: Uses iterative approach to ensure Second Preimage Resistance 
+- **Speeedup**: retrieve <k,v> pairs lightning fast using Redis data store
 
 
 ## Components
@@ -24,11 +24,11 @@ The system consists of two main components:
 3. Run `npm run dev` to start the Gui
 
 ## Technologies
-<p align="center">
+<div align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=express, githubactions, js, nodejs, react, redis, tailwind, vercel" />
+    <img src="https://skillicons.dev/icons?i=express,githubactions,js,nodejs,react,redis,tailwind,vercel" />
   </a>
-</p>
+</div>
 
 ## Disclaimer
 
